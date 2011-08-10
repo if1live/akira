@@ -1,0 +1,5 @@
+﻿Project::Akira
+
+Akira is Google Test like Unittest library for iphone(but, it runs on windows) You can use google test api on iphone!
+
+Akira는 구글테스트 API를 사용한 단위테스트 라이브러이입니다. 아이폰에서 google test api로 단위테스트를 작성하고 돌릴수있습니다
