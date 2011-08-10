@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "akira", "akira\akira.vcxproj", "{70EBB0C2-F8F0-4870-9C65-0BA605CC5AA6}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "akiraTest", "akiraTest\akiraTest.vcxproj", "{C6E77444-2EA1-47B1-BDA2-3BAA97209E2A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{70EBB0C2-F8F0-4870-9C65-0BA605CC5AA6}.Debug|Win32.ActiveCfg = Debug|Win32
+		{70EBB0C2-F8F0-4870-9C65-0BA605CC5AA6}.Debug|Win32.Build.0 = Debug|Win32
+		{70EBB0C2-F8F0-4870-9C65-0BA605CC5AA6}.Release|Win32.ActiveCfg = Release|Win32
+		{70EBB0C2-F8F0-4870-9C65-0BA605CC5AA6}.Release|Win32.Build.0 = Release|Win32
+		{C6E77444-2EA1-47B1-BDA2-3BAA97209E2A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C6E77444-2EA1-47B1-BDA2-3BAA97209E2A}.Debug|Win32.Build.0 = Debug|Win32
+		{C6E77444-2EA1-47B1-BDA2-3BAA97209E2A}.Release|Win32.ActiveCfg = Release|Win32
+		{C6E77444-2EA1-47B1-BDA2-3BAA97209E2A}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

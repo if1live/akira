@@ -1,0 +1,4 @@
+﻿// Ŭnicode please
+namespace testing
+{
+}

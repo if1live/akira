@@ -1,0 +1,452 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA24EEFE13814F3C00F48FCA /* libakira.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EA6B050E138149830001BF24 /* libakira.a */; };
+		EA51923513E44837000F6483 /* AKCompareMethod.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA51922413E44837000F6483 /* AKCompareMethod.cpp */; };
+		EA51923613E44837000F6483 /* AKCompareMethod.h in Headers */ = {isa = PBXBuildFile; fileRef = EA51922513E44837000F6483 /* AKCompareMethod.h */; };
+		EA51923713E44837000F6483 /* AKCompareMethod.hpp in Headers */ = {isa = PBXBuildFile; fileRef = EA51922613E44837000F6483 /* AKCompareMethod.hpp */; };
+		EA51923813E44837000F6483 /* AKStopWatch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA51922713E44837000F6483 /* AKStopWatch.cpp */; };
+		EA51923913E44837000F6483 /* AKStopWatch.h in Headers */ = {isa = PBXBuildFile; fileRef = EA51922813E44837000F6483 /* AKStopWatch.h */; };
+		EA51923A13E44837000F6483 /* AKTest.h in Headers */ = {isa = PBXBuildFile; fileRef = EA51922913E44837000F6483 /* AKTest.h */; };
+		EA51923B13E44837000F6483 /* AKTestCase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA51922A13E44837000F6483 /* AKTestCase.cpp */; };
+		EA51923C13E44837000F6483 /* AKTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = EA51922B13E44837000F6483 /* AKTestCase.h */; };
+		EA51923D13E44837000F6483 /* AKTestCase.hpp in Headers */ = {isa = PBXBuildFile; fileRef = EA51922C13E44837000F6483 /* AKTestCase.hpp */; };
+		EA51923E13E44837000F6483 /* AKTestContext.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA51922D13E44837000F6483 /* AKTestContext.cpp */; };
+		EA51923F13E44837000F6483 /* AKTestContext.h in Headers */ = {isa = PBXBuildFile; fileRef = EA51922E13E44837000F6483 /* AKTestContext.h */; };
+		EA51924013E44837000F6483 /* AKTestMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = EA51922F13E44837000F6483 /* AKTestMacro.h */; };
+		EA51924113E44837000F6483 /* AKTestMethod.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA51923013E44837000F6483 /* AKTestMethod.cpp */; };
+		EA51924213E44837000F6483 /* AKTestMethod.h in Headers */ = {isa = PBXBuildFile; fileRef = EA51923113E44837000F6483 /* AKTestMethod.h */; };
+		EA51924313E44837000F6483 /* AKTestSuite.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA51923213E44837000F6483 /* AKTestSuite.cpp */; };
+		EA51924413E44837000F6483 /* AKTestSuite.h in Headers */ = {isa = PBXBuildFile; fileRef = EA51923313E44837000F6483 /* AKTestSuite.h */; };
+		EA51924513E44837000F6483 /* AKValueType.h in Headers */ = {isa = PBXBuildFile; fileRef = EA51923413E44837000F6483 /* AKValueType.h */; };
+		EA51925613E44843000F6483 /* AKCompareMethodTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA51924613E44843000F6483 /* AKCompareMethodTest.cpp */; };
+		EA51925713E44843000F6483 /* AKValueTypeTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA51924713E44843000F6483 /* AKValueTypeTest.cpp */; };
+		EA51925813E44843000F6483 /* sample1_unittest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA51924913E44843000F6483 /* sample1_unittest.cpp */; };
+		EA51925913E44843000F6483 /* sample1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA51924A13E44843000F6483 /* sample1.cpp */; };
+		EA51925A13E44843000F6483 /* sample2_unittest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA51924C13E44843000F6483 /* sample2_unittest.cpp */; };
+		EA51925B13E44843000F6483 /* sample2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA51924D13E44843000F6483 /* sample2.cpp */; };
+		EA51925C13E44843000F6483 /* sample3_unittest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA51924F13E44843000F6483 /* sample3_unittest.cpp */; };
+		EA51925D13E44843000F6483 /* sample4_unittest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA51925113E44843000F6483 /* sample4_unittest.cpp */; };
+		EA51925E13E44843000F6483 /* sample4.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA51925213E44843000F6483 /* sample4.cpp */; };
+		EA51925F13E44843000F6483 /* sample5_unittest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA51925413E44843000F6483 /* sample5_unittest.cpp */; };
+		EA51926013E44843000F6483 /* testmain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA51925513E44843000F6483 /* testmain.cpp */; };
+		EA51935413E448D1000F6483 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA6B0511138149830001BF24 /* Foundation.framework */; };
+		EA6B0512138149830001BF24 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA6B0511138149830001BF24 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EAC88F4213815CE8000C9528 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA6B0505138149820001BF24 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA6B050D138149820001BF24;
+			remoteInfo = akira;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EA51922413E44837000F6483 /* AKCompareMethod.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AKCompareMethod.cpp; sourceTree = "<group>"; };
+		EA51922513E44837000F6483 /* AKCompareMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKCompareMethod.h; sourceTree = "<group>"; };
+		EA51922613E44837000F6483 /* AKCompareMethod.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = AKCompareMethod.hpp; sourceTree = "<group>"; };
+		EA51922713E44837000F6483 /* AKStopWatch.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AKStopWatch.cpp; sourceTree = "<group>"; };
+		EA51922813E44837000F6483 /* AKStopWatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKStopWatch.h; sourceTree = "<group>"; };
+		EA51922913E44837000F6483 /* AKTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKTest.h; sourceTree = "<group>"; };
+		EA51922A13E44837000F6483 /* AKTestCase.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AKTestCase.cpp; sourceTree = "<group>"; };
+		EA51922B13E44837000F6483 /* AKTestCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKTestCase.h; sourceTree = "<group>"; };
+		EA51922C13E44837000F6483 /* AKTestCase.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = AKTestCase.hpp; sourceTree = "<group>"; };
+		EA51922D13E44837000F6483 /* AKTestContext.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AKTestContext.cpp; sourceTree = "<group>"; };
+		EA51922E13E44837000F6483 /* AKTestContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKTestContext.h; sourceTree = "<group>"; };
+		EA51922F13E44837000F6483 /* AKTestMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKTestMacro.h; sourceTree = "<group>"; };
+		EA51923013E44837000F6483 /* AKTestMethod.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AKTestMethod.cpp; sourceTree = "<group>"; };
+		EA51923113E44837000F6483 /* AKTestMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKTestMethod.h; sourceTree = "<group>"; };
+		EA51923213E44837000F6483 /* AKTestSuite.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AKTestSuite.cpp; sourceTree = "<group>"; };
+		EA51923313E44837000F6483 /* AKTestSuite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKTestSuite.h; sourceTree = "<group>"; };
+		EA51923413E44837000F6483 /* AKValueType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKValueType.h; sourceTree = "<group>"; };
+		EA51924613E44843000F6483 /* AKCompareMethodTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AKCompareMethodTest.cpp; sourceTree = "<group>"; };
+		EA51924713E44843000F6483 /* AKValueTypeTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AKValueTypeTest.cpp; sourceTree = "<group>"; };
+		EA51924813E44843000F6483 /* prime_tables.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = prime_tables.h; sourceTree = "<group>"; };
+		EA51924913E44843000F6483 /* sample1_unittest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sample1_unittest.cpp; sourceTree = "<group>"; };
+		EA51924A13E44843000F6483 /* sample1.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sample1.cpp; sourceTree = "<group>"; };
+		EA51924B13E44843000F6483 /* sample1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sample1.h; sourceTree = "<group>"; };
+		EA51924C13E44843000F6483 /* sample2_unittest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sample2_unittest.cpp; sourceTree = "<group>"; };
+		EA51924D13E44843000F6483 /* sample2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sample2.cpp; sourceTree = "<group>"; };
+		EA51924E13E44843000F6483 /* sample2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sample2.h; sourceTree = "<group>"; };
+		EA51924F13E44843000F6483 /* sample3_unittest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sample3_unittest.cpp; sourceTree = "<group>"; };
+		EA51925013E44843000F6483 /* sample3-inl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "sample3-inl.h"; sourceTree = "<group>"; };
+		EA51925113E44843000F6483 /* sample4_unittest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sample4_unittest.cpp; sourceTree = "<group>"; };
+		EA51925213E44843000F6483 /* sample4.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sample4.cpp; sourceTree = "<group>"; };
+		EA51925313E44843000F6483 /* sample4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sample4.h; sourceTree = "<group>"; };
+		EA51925413E44843000F6483 /* sample5_unittest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sample5_unittest.cpp; sourceTree = "<group>"; };
+		EA51925513E44843000F6483 /* testmain.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = testmain.cpp; sourceTree = "<group>"; };
+		EA51935713E448EE000F6483 /* akiraTest-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "akiraTest-Info.plist"; sourceTree = "<group>"; };
+		EA6B050E138149830001BF24 /* libakira.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libakira.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA6B0511138149830001BF24 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EA6B056813814A670001BF24 /* akiraTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = akiraTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA6B050B138149820001BF24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA6B0512138149830001BF24 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA6B056513814A670001BF24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA51935413E448D1000F6483 /* Foundation.framework in Frameworks */,
+				EA24EEFE13814F3C00F48FCA /* libakira.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA51935A13E448F0000F6483 /* SupportFile */ = {
+			isa = PBXGroup;
+			children = (
+				EA51935713E448EE000F6483 /* akiraTest-Info.plist */,
+			);
+			name = SupportFile;
+			sourceTree = "<group>";
+		};
+		EA6B0503138149820001BF24 = {
+			isa = PBXGroup;
+			children = (
+				EA6B050E138149830001BF24 /* libakira.a */,
+				EA6B0513138149830001BF24 /* akira */,
+				EA6B056D13814A670001BF24 /* akiraTest */,
+				EA6B0510138149830001BF24 /* Frameworks */,
+				EA6B050F138149830001BF24 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA6B050F138149830001BF24 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA6B056813814A670001BF24 /* akiraTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA6B0510138149830001BF24 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EA6B0511138149830001BF24 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EA6B0513138149830001BF24 /* akira */ = {
+			isa = PBXGroup;
+			children = (
+				EA51922413E44837000F6483 /* AKCompareMethod.cpp */,
+				EA51922513E44837000F6483 /* AKCompareMethod.h */,
+				EA51922613E44837000F6483 /* AKCompareMethod.hpp */,
+				EA51922713E44837000F6483 /* AKStopWatch.cpp */,
+				EA51922813E44837000F6483 /* AKStopWatch.h */,
+				EA51922913E44837000F6483 /* AKTest.h */,
+				EA51922A13E44837000F6483 /* AKTestCase.cpp */,
+				EA51922B13E44837000F6483 /* AKTestCase.h */,
+				EA51922C13E44837000F6483 /* AKTestCase.hpp */,
+				EA51922D13E44837000F6483 /* AKTestContext.cpp */,
+				EA51922E13E44837000F6483 /* AKTestContext.h */,
+				EA51922F13E44837000F6483 /* AKTestMacro.h */,
+				EA51923013E44837000F6483 /* AKTestMethod.cpp */,
+				EA51923113E44837000F6483 /* AKTestMethod.h */,
+				EA51923213E44837000F6483 /* AKTestSuite.cpp */,
+				EA51923313E44837000F6483 /* AKTestSuite.h */,
+				EA51923413E44837000F6483 /* AKValueType.h */,
+			);
+			path = akira;
+			sourceTree = "<group>";
+		};
+		EA6B056D13814A670001BF24 /* akiraTest */ = {
+			isa = PBXGroup;
+			children = (
+				EA51935A13E448F0000F6483 /* SupportFile */,
+				EA51924613E44843000F6483 /* AKCompareMethodTest.cpp */,
+				EA51924713E44843000F6483 /* AKValueTypeTest.cpp */,
+				EA51924813E44843000F6483 /* prime_tables.h */,
+				EA51924913E44843000F6483 /* sample1_unittest.cpp */,
+				EA51924A13E44843000F6483 /* sample1.cpp */,
+				EA51924B13E44843000F6483 /* sample1.h */,
+				EA51924C13E44843000F6483 /* sample2_unittest.cpp */,
+				EA51924D13E44843000F6483 /* sample2.cpp */,
+				EA51924E13E44843000F6483 /* sample2.h */,
+				EA51924F13E44843000F6483 /* sample3_unittest.cpp */,
+				EA51925013E44843000F6483 /* sample3-inl.h */,
+				EA51925113E44843000F6483 /* sample4_unittest.cpp */,
+				EA51925213E44843000F6483 /* sample4.cpp */,
+				EA51925313E44843000F6483 /* sample4.h */,
+				EA51925413E44843000F6483 /* sample5_unittest.cpp */,
+				EA51925513E44843000F6483 /* testmain.cpp */,
+			);
+			path = akiraTest;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		EA6B050C138149820001BF24 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA51923613E44837000F6483 /* AKCompareMethod.h in Headers */,
+				EA51923713E44837000F6483 /* AKCompareMethod.hpp in Headers */,
+				EA51923913E44837000F6483 /* AKStopWatch.h in Headers */,
+				EA51923A13E44837000F6483 /* AKTest.h in Headers */,
+				EA51923C13E44837000F6483 /* AKTestCase.h in Headers */,
+				EA51923D13E44837000F6483 /* AKTestCase.hpp in Headers */,
+				EA51923F13E44837000F6483 /* AKTestContext.h in Headers */,
+				EA51924013E44837000F6483 /* AKTestMacro.h in Headers */,
+				EA51924213E44837000F6483 /* AKTestMethod.h in Headers */,
+				EA51924413E44837000F6483 /* AKTestSuite.h in Headers */,
+				EA51924513E44837000F6483 /* AKValueType.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		EA6B050D138149820001BF24 /* akira */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA6B0531138149830001BF24 /* Build configuration list for PBXNativeTarget "akira" */;
+			buildPhases = (
+				EA6B050A138149820001BF24 /* Sources */,
+				EA6B050B138149820001BF24 /* Frameworks */,
+				EA6B050C138149820001BF24 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = akira;
+			productName = akira;
+			productReference = EA6B050E138149830001BF24 /* libakira.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		EA6B056713814A670001BF24 /* akiraTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA6B057C13814A670001BF24 /* Build configuration list for PBXNativeTarget "akiraTest" */;
+			buildPhases = (
+				EA6B056413814A670001BF24 /* Sources */,
+				EA6B056513814A670001BF24 /* Frameworks */,
+				EA6B056613814A670001BF24 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EAC88F4313815CE8000C9528 /* PBXTargetDependency */,
+			);
+			name = akiraTest;
+			productName = akiraTest;
+			productReference = EA6B056813814A670001BF24 /* akiraTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA6B0505138149820001BF24 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = EA6B0508138149820001BF24 /* Build configuration list for PBXProject "akira" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EA6B0503138149820001BF24;
+			productRefGroup = EA6B050F138149830001BF24 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA6B050D138149820001BF24 /* akira */,
+				EA6B056713814A670001BF24 /* akiraTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA6B056613814A670001BF24 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA6B050A138149820001BF24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA51923513E44837000F6483 /* AKCompareMethod.cpp in Sources */,
+				EA51923813E44837000F6483 /* AKStopWatch.cpp in Sources */,
+				EA51923B13E44837000F6483 /* AKTestCase.cpp in Sources */,
+				EA51923E13E44837000F6483 /* AKTestContext.cpp in Sources */,
+				EA51924113E44837000F6483 /* AKTestMethod.cpp in Sources */,
+				EA51924313E44837000F6483 /* AKTestSuite.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA6B056413814A670001BF24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA51925613E44843000F6483 /* AKCompareMethodTest.cpp in Sources */,
+				EA51925713E44843000F6483 /* AKValueTypeTest.cpp in Sources */,
+				EA51925813E44843000F6483 /* sample1_unittest.cpp in Sources */,
+				EA51925913E44843000F6483 /* sample1.cpp in Sources */,
+				EA51925A13E44843000F6483 /* sample2_unittest.cpp in Sources */,
+				EA51925B13E44843000F6483 /* sample2.cpp in Sources */,
+				EA51925C13E44843000F6483 /* sample3_unittest.cpp in Sources */,
+				EA51925D13E44843000F6483 /* sample4_unittest.cpp in Sources */,
+				EA51925E13E44843000F6483 /* sample4.cpp in Sources */,
+				EA51925F13E44843000F6483 /* sample5_unittest.cpp in Sources */,
+				EA51926013E44843000F6483 /* testmain.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EAC88F4313815CE8000C9528 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA6B050D138149820001BF24 /* akira */;
+			targetProxy = EAC88F4213815CE8000C9528 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EA6B052F138149830001BF24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EA6B0530138149830001BF24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		EA6B0532138149830001BF24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DSTROOT = /tmp/akira.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = __OBJC__;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				OTHER_CFLAGS = "-fvisibility=hidden";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EA6B0533138149830001BF24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DSTROOT = /tmp/akira.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = __OBJC__;
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				OTHER_CFLAGS = "-fvisibility=hidden";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EA6B057D13814A670001BF24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				HEADER_SEARCH_PATHS = .;
+				INFOPLIST_FILE = "akiraTest/akiraTest-Info.plist";
+				OTHER_CFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EA6B057E13814A670001BF24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				HEADER_SEARCH_PATHS = .;
+				INFOPLIST_FILE = "akiraTest/akiraTest-Info.plist";
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA6B0508138149820001BF24 /* Build configuration list for PBXProject "akira" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA6B052F138149830001BF24 /* Debug */,
+				EA6B0530138149830001BF24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA6B0531138149830001BF24 /* Build configuration list for PBXNativeTarget "akira" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA6B0532138149830001BF24 /* Debug */,
+				EA6B0533138149830001BF24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA6B057C13814A670001BF24 /* Build configuration list for PBXNativeTarget "akiraTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA6B057D13814A670001BF24 /* Debug */,
+				EA6B057E13814A670001BF24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA6B0505138149820001BF24 /* Project object */;
+}
